@@ -1,8 +1,8 @@
 package com.example.springbootlibrary.controller;
 
 import com.example.springbootlibrary.entity.Book;
-import com.example.springbootlibrary.responsemodels.ShelfCurrentLoansResponse;
-import com.example.springbootlibrary.service.BookService;
+import com.example.springbootlibrary.service.Impl.ShelfCurrentLoansResponse;
+import com.example.springbootlibrary.service.Impl.BookService;
 import com.example.springbootlibrary.utils.ExtractJWT;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;

@@ -1,7 +1,7 @@
 package com.example.springbootlibrary.controller;
 
 import com.example.springbootlibrary.requestmodels.AddBookRequest;
-import com.example.springbootlibrary.service.AdminService;
+import com.example.springbootlibrary.service.Impl.AdminService;
 import com.example.springbootlibrary.utils.ExtractJWT;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;

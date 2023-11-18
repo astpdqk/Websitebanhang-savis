@@ -2,7 +2,7 @@ package com.example.springbootlibrary.controller;
 
 import com.example.springbootlibrary.entity.Message;
 import com.example.springbootlibrary.requestmodels.AdminQuestionRequest;
-import com.example.springbootlibrary.service.MessageService;
+import com.example.springbootlibrary.service.Impl.MessageService;
 import com.example.springbootlibrary.utils.ExtractJWT;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PostMapping;

@@ -1,7 +1,7 @@
 package com.example.springbootlibrary.controller;
 
 import com.example.springbootlibrary.requestmodels.ReviewRequest;
-import com.example.springbootlibrary.service.ReviewService;
+import com.example.springbootlibrary.service.Impl.ReviewService;
 import com.example.springbootlibrary.utils.ExtractJWT;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;

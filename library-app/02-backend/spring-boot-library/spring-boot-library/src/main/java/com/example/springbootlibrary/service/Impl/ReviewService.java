@@ -1,6 +1,5 @@
-package com.example.springbootlibrary.service;
+package com.example.springbootlibrary.service.Impl;
 
-import com.example.springbootlibrary.dao.BookRepository;
 import com.example.springbootlibrary.dao.ReviewRepository;
 import com.example.springbootlibrary.entity.Review;
 import com.example.springbootlibrary.requestmodels.ReviewRequest;

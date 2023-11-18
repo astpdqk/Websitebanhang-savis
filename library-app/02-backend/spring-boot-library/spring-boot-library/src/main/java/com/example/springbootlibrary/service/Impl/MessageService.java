@@ -1,4 +1,4 @@
-package com.example.springbootlibrary.service;
+package com.example.springbootlibrary.service.Impl;
 
 import com.example.springbootlibrary.dao.MessageRepository;
 import com.example.springbootlibrary.entity.Message;

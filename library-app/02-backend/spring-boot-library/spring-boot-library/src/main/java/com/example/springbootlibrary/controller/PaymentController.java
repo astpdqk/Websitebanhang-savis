@@ -1,7 +1,7 @@
 package com.example.springbootlibrary.controller;
 
 import com.example.springbootlibrary.requestmodels.PaymentInfoRequest;
-import com.example.springbootlibrary.service.PaymentService;
+import com.example.springbootlibrary.service.Impl.PaymentService;
 import com.example.springbootlibrary.utils.ExtractJWT;
 import com.stripe.exception.StripeException;
 import com.stripe.model.PaymentIntent;

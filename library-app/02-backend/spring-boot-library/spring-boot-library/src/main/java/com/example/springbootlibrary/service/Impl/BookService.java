@@ -1,4 +1,4 @@
-package com.example.springbootlibrary.service;
+package com.example.springbootlibrary.service.Impl;
 
 import com.example.springbootlibrary.dao.BookRepository;
 import com.example.springbootlibrary.dao.CheckoutRepository;
@@ -8,7 +8,6 @@ import com.example.springbootlibrary.entity.Book;
 import com.example.springbootlibrary.entity.Checkout;
 import com.example.springbootlibrary.entity.History;
 import com.example.springbootlibrary.entity.Payment;
-import com.example.springbootlibrary.responsemodels.ShelfCurrentLoansResponse;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
